@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    position: absolute;
+    top: 40px;
+    left: 450px;
+}
+.reklam{
+    position: absolute;
+    top: 20px;
+    left: 800px;
+}
+.yukari{
+    border-bottom: red 3px solid;
+    width: 100%;
+    height:70px;
+    background-color: #000000;
+    position: relative;
+    top: 150px;
+}
+.yukari ul{
+    
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 300px;
+}
+li a{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin: 30px;
+    font-weight: bolder;
+}
+i{
+    margin-left: -15px;
+}
+
+.yukari img{
+    position: absolute;
+    left: 1300px;
+    width: 30px;
+}
+.ana{
+    position: relative;
+    left: 300px;
+    top: 150px;
+    width: 1300px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ana .ilk{ 
+    background-image: url(images/man-taking-photo.jpg);
+    background-size: 100%;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-right: 15px;
+    width: 400px;
+    height: 500px;
+    color: white;
+}
+.ana .yan{
+    background-image: url(images/excel-esports-player.jpg);
+    background-size: 100%;
+    border-radius: 10px;
+    margin-top: 40px;
+    width: 400px;
+    height: 500px;
+    color: white;
+}
+.ana .yuk{
+    background-image: url(images/Online_Shopper_Getty_DMEPhotography.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 400px;
+    height: 240px;
+    color: black;
+    margin-top: 40px;
+    margin-left: 15px;
+
+}
+.ana .alt{
+    background-image: url(images/John-CLay-3\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: absolute;
+    left: 816px;
+    top: 260px;
+    width: 400px;
+    height: 240px;
+    color: white;
+    margin-top: 40px;
+    margin-left: 15px;
+
+}
+.ana .ilk h1{
+    margin-left: 30px;
+    margin-top: 350px;
+}
+.ana .ilk p{
+    left: 60px;
+    top: 490px;
+    position: absolute;
+}
+.ana .ilk i{
+    position: absolute;
+    left: 50px;
+    top: 494px;
+}
+.ana .yan h1{
+    margin-left: 30px;
+    margin-top: 350px;
+}
+.ana .yan p{
+    left: 475px;
+    top: 490px;
+    position: absolute;
+}
+.ana .yan i{
+    position: absolute;
+    left: 465px;
+    top: 494px;
+}
+.ana .yuk h2{
+    margin-left: 30px;
+    margin-top: 120px;
+}
+.ana .yuk p{
+    color: white;
+    margin-left: 50px;
+    margin-top: -3px;
+    position: absolute;
+}
+.ana .yuk i{
+    position: absolute;
+    margin-left: 30px;
+}
+.ana .alt h2{
+    margin-left: 30px;
+    margin-top: 120px;
+}
+.ana .alt p{
+    color: white;
+    margin-left: 50px;
+    margin-top: -3px;
+    position: absolute;
+}
+.ana .alt i{
+    position: absolute;
+    margin-left: 30px;
+}
+.editor .baslik h3{
+    position: absolute;
+    top: 850px;
+    left: 300px;
+}
+.baslik .ayrac{
+    width: 800px;
+    height: 2px;
+    background-color: red;
+    position: absolute;
+    top: 880px;
+    left: 300px;
+}
+.baslik a{
+    position: absolute;
+    top: 835px;
+    left: 1020px;
+    background-color: red;
+    padding: 8px;
+    color: white;
+    border-radius: 80px;
+}
+.baslik .sonra{
+    position: absolute;
+    top: 835px;
+    left: 1050px;
+    background-color: red;
+    padding: 8px;
+    color: white;
+    border-radius: 80px;
+}
+.stay .baslik .ayrac{
+    width: 385px;
+    height: 2px;
+    background-color: red;
+    position: absolute;
+    top: 880px;
+    left: 1150px;
+}
+.stay .baslik h3{
+    position: absolute;
+    top: 850px;
+    left: 1150px;
+}
+.stay img{
+    margin-right: 10px;
+    width: 40px;
+    position: relative;
+    left: 1150px;
+    top: 230px;
+}
+.konu1 img{
+    width: 400px;
+    position: absolute;
+    border-radius: 5px;
+    left: 300px; 
+    top: 900px;
+}
+.konu2 img{
+    width: 338px;
+    position: absolute;
+    border-radius: 5px;
+    left: 750px; 
+    top: 900px;
+}
+.konu3 img{
+    width: 385px;
+    position: absolute;
+    border-radius: 5px;
+    left: 300px; 
+    top: 1400px;
+}
+.bitti h2{
+    position: absolute;
+    left: 300px; 
+    top: 1670px;
+}
+.konu1 h2{
+    position: absolute;
+    left: 300px; 
+    top: 1140px;
+}
+.konu1 .bilgi{
+    color: rgba(0, 0, 0, 0.658);
+    margin-top: 20px;
+    position: absolute;
+    left: 300px;
+    top: 1200px;
+}
+.yazim p{
+    color: rgba(0, 0, 0, 0.658);
+    margin-top: 20px;
+    position: absolute;
+    left: 750px;
+    top: 1200px;
+}
+.yazim h2{
+    position: absolute;
+    left: 750px; 
+    top: 1140px;
+}
+.bitti p{
+    color: rgba(0, 0, 0, 0.658);
+    margin-top: 20px;
+    position: absolute;
+    left: 300px;
+    top: 1740px;
+}
+.konu4 img{
+    width: 330px;
+    position: absolute;
+    border-radius: 5px;
+    left: 750px; 
+    top: 1400px;
+}
+.yok p{
+    color: rgba(0, 0, 0, 0.658);
+    margin-top: 20px;
+    position: absolute;
+    left: 750px;
+    top: 1700px;
+}
+.yok h2{
+    position: absolute;
+    left: 750px; 
+    top: 1630px;
+}
+.hot .ayrac{
+    width: 385px;
+    height: 2px;
+    background-color: red;
+    position: absolute;
+    top: 1130px;
+    left: 1150px;
+}
+.hot h3{
+    position: absolute;
+    top: 1100px;
+    left: 1150px;
+}
+.hot .foto img{
+    position: relative;
+    border-radius: 20px;
+    top: 450px;
+    width: 400px;
+} 
+.foto h2{
+    font-weight: bolder;
+    position: absolute;
+    top: 1320px;
+    left: 1160px;
+    color: black;
+    
+    
+}
+.foto p{
+    position: absolute;
+    top: 1390px;
+    left: 1190px;
+}
+.foto i{
+    position: absolute;
+    top: 1394px;
+    left: 1180px;
+}
+.yankonu1 img{
+    position: relative;
+    border-radius: 5px;
+    top: 500px;
+    width: 200px;
+}
+.yankonu1 p{
+    position: absolute;
+    top: 1520px;
+    left: 1355px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.yankonu2 img{
+    position: relative;
+    border-radius: 5px;
+    top: 550px;
+    width: 200px;
+}
+.yankonu2 p{
+    position: absolute;
+    top: 1680px;
+    left: 1355px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.yankonu3 img{
+    position: relative;
+    border-radius: 5px;
+    top: 600px;
+    width: 200px;
+}
+.yankonu3 p{
+    position: absolute;
+    top: 1880px;
+    left: 1355px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.yankonu4 img{
+    position: relative;
+    border-radius: 5px;
+    top: 650px;
+    width: 200px;
+}
+.yankonu4 p{
+    position: absolute;
+    top: 2060px;
+    left: 1355px;
+    font-weight: bolder;
+    font-size: 25px;
+}
